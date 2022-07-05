@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 0 10%;
+    background-color: rgb(219, 159, 195);
+}
+
+.transparent {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    font-size: 18px;
+    width: fit-content;
+    margin: 20px 0;
+    padding: 5px 20px;
+    background-color: transparent;
+    color: white;
+    border: solid;
+    border-color: white;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+#knowMore {
+    font-size: 0.6em;
+}
+
+#knowMore:hover {
+    background-color: white;
+    color:  rgb(216, 98, 157);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#extra > strong {
+    color: rgb(255, 238, 247);
+}
+#name > strong {
+    color: rgb(216, 98, 157);
+}
+
+#name {
+    display: block;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+.red {
+    height: 90vh;
+    background-color: rgb(216, 98, 157);
+    margin: 5vh 0;
+    border-radius: 20px;
+}
+
+.white {
+    background-color:  rgb(216, 98, 157);
+    
+    margin: 5vh 0;
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 5vh 0;
+}
+
+.red {
+    color: rgb(29, 85, 111);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+#profile {
+    border-radius: 50%;
+    padding: 0 5vw 0 0;
+    margin: 0 0 0 5vw;
+}
+
+#aboutme {
+    font-size: 2em;
+    display: block;
+    margin: 0 5vw 0 0;
+}
+
+strong {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#aboutme > .row {
+    padding: 0;
+}
+
+#aboutme > .row > a > button {
+    margin: 30px 10px 0 0;
+}
+
+#aboutme > .row > a> button:hover {
+    background-color: white;
+    color: rgb(216, 98, 157);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.white > .title {
+    color: rgb(216, 98, 157);
+}
+
+h1 {
+    color: rgb(197, 69, 165);
+}
+
+img {
+    border-radius: 10px;
+    height: 50vh;
+}
+
+.whitebuttons > a > button {
+    margin-right: 10px;
+    border-color: rgb(216, 98, 157);
+    color: rgb(216, 98, 157);
+}
+
+.whitebuttons > a > button:hover {
+    background-color: rgb(216, 98, 157);
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    color: rgb(216, 98, 157);
+}
+
+a:visited  {
+    color: rgb(82, 146, 231);;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
